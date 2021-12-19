@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <title>Admission | École Superieure d'Infotronique d'Haiti</title>
+
+    <script src="https://kit.fontawesome.com/104b508d4f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER  -->
+
+    <header id="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://unevoc.unesco.org/network/up/esih1.jpg" alt="Logo de l'ESIH...">
+            </div>
+
+            <div id="navigation">
+                <div id="mobile"></div>
+                <nav id="menu_principal" >
+                    <a href="../index.html" class="menu_item active">Etudier a l'Esih</a>
+                    <a href="#" class="menu_item">Vie Etudiante</a>
+                    <a href="./recherche-et-creation.html" class="menu_item ">Recherche & Création</a>
+                    <a href="#" class="menu_item">Campus</a>
+                    <div class="menu_item dropdown">A propos
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">Informations Générales</a>
+                            <a href="#" class="dropdown-item">Direction</a>
+                            <a href="#" class="dropdown-item">Affaires Etudiantines</a>
+                        </div>
+                    </div>
+                    <a href="#" class="menu_item btn">Admission</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="page">
+
+        <section id="banner-page">
+            <div class="container">
+                <div class="banner-page">
+
+                    <header class="header-section">
+                        <h1><i class="fas fa-user-tie"></i> Admission</h1>
+                    </header>
+                </div>
+                <hr class="separator">
+            </div>
+        </section>
+
+        <section id="admission">
+            <div class="container">
+                <div class="admission">
+                    
+                    <div class="title">
+                        <h1>Formulaire d'Admission</h1>
+                    </div>
+
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" name="nom" id="nom" placeholder="Votre Nom">
+                            <input type="text" name="prenom" id="prenom" placeholder="Votre Prenom">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Votre Email">
+                            <input type="tel" name="telephone" id="telephone" placeholder="Votre téléphone">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="adresse" id="adresse" placeholder="Adresse">
+                            <input type="text" name="nif" id="nif" placeholder="NIF">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="resp" id="resp" placeholder="Personne Responsable">
+                            <input type="tel" name="telephone" id="telephone" placeholder="Téléphone Responsable">
+                        </div>
+
+                        <div class="form-group">
+                            <select name="option" id="option">
+                                <option value="">Option Choisie</option>
+                                <option value="info-gestion">Info-Gestion (4 ans - Matin)</option>
+                                <option value="info">Sciences Informatiques (3 Ans - Soir)</option>
+                                <option value="gestion">Sciences de la Gestion (3 Ans - Soir)</option>
+                                <option value="dut">DUT - Diplome Universitaire de Technologie (3 Ans - Matin)</option>
+                                <option value="master-reseau">Master - Réseaux et Télécominication (2 Ans - Soir)</option>
+                                <option value="master-mone">Master - Management / MONE (2 Ans - Soir)</option>
+                            </select>
+
+                            
+                            <input type="file" name="dossier" id="dossier" placeholder="Votre Dossier d'inscription">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="info" id="info" rows="15" placeholder="Pourquoi Choisissez-vous L'ESIH ?"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <div >
+                                <input type="checkbox" name="accept" id="accept" style="width: auto;">
+                                <label for="accept">Acepter les <span><a href="">conditions d'Admission</a></span>.</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn" style="float: right;">S'Inscrire</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="container">
+
+                <header class="header-section">
+                    <h1><i class="fas fa-envelope-open-text"></i> Newsletter</h1>
+                </header>
+
+                <div class="newsletter">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Entrer Votre Email">
+                            <button type="submit" class="btn">Soumettre</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="footer-content-item">
+                        <h2>Contactez-Nous !</h2>
+
+                        <ul>
+                            <li><a href="mailto:information@esih.edu"><i class="fas fa-envelope"></i> informations@esih.edu</a></li>
+                            <li><a href="tel:22264749"><i class="fas fa-phone"></i> (+509) 22 26 4749</a></li>
+                            <li><a href=""><i class="fas fa-map-marker-alt"></i> 29 2nd lane, Port-au-Prince</a></li>
+                            <li><a href="https://web.facebook.com/esihhaiti"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-content-item">
+                        <h2>A propos</h2>
+
+                        <ul>
+                            <li><a href="#">Informations Générales</a></li>
+                            <li><a href="#">Direction</a></li>
+                            <li><a href="#">Campus</a></li>
+                            <li><a href="#">Affaires Estudiantines</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-content-item">
+                        <h2>Etudier a l'ESIH</h2>
+
+                        <ul>
+                            <li><a href="#">Demande Admission</a></li>
+                            <li><a href="#">Portail Étudiant</a></li>
+                            <li><a href="#">Ressources</a></li>
+                            <li><a href="#">Vie Etudiante</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-content-item">
+                        <h2>Recherche et Création</h2>
+
+                        <ul>
+                            <li><a href="./recherche-et-creation.html#tva">Tainos Visual Arts</a></li>
+                            <li><a href="./recherche-et-creation.html#dokla">Dokla</a></li>
+                            <li><a href="./recherche-et-creation.html#hvt">Haiti Virtual Tour</a></li>
+                            <li><a href="./recherche-et-creation.html#fsnb">Freeky Snack Bar</a></li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+
+                
+                <div class="copyright">
+                    <hr class="separator">
+                    <p>Copyright &copy; | 2020 - Powered By &#129310; G2/L2 ESIH </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

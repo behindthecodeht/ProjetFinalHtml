@@ -1,0 +1,140 @@
+@media screen and (max-width: 1200px ) {
+    .navbar{
+        padding: 0 2%;
+    }
+
+}
+
+@media screen and (max-width: 1085px ) {
+    .separator{
+        margin: 30px 20px;
+    }
+
+    .banner h1{
+        font-size: 3rem;
+    }
+
+    .formations{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .formation-item.entete, .formation-item, .footer-content-item{
+        width: 40%;
+    }
+
+    .partenaire-item{
+            width: 25%;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    #navigation{
+        position: relative;
+    }
+
+    #mobile{
+        position: relative;
+    }
+
+    #mobile::before, #mobile::after{
+        content: '';
+        position: absolute;
+    }
+
+    #mobile, #mobile::before, #mobile::after{
+        display: block;
+        background-color: var(--main-color);
+        width: 36px;
+        height: 5px;
+    }
+    
+    #mobile::before{
+        top: -10px;
+    }
+
+    #mobile::after{
+        top: 10px;
+    }
+
+    #menu_principal .menu_item{
+        display: block;
+    }
+
+    #menu_principal{
+        position: absolute;
+        width: 300px;
+        height: 80vh;
+        top: 52px;
+        left: -257px;
+        transform: translateX(300px);
+        background-color: var(--gray2-color);
+        padding: 20px;
+        text-align: center;
+        transition: transform ease-in-out .3s;
+    }
+
+    #mobile:hover + #menu_principal{
+        transform: translateX(0);
+        transition: transform ease-in-out .3s;
+    }
+}
+
+@media screen and (max-width: 796px ) {
+    .block{
+        flex-wrap: wrap;
+    }
+
+    .thumbnail, .description{
+        width: 100%;
+    }
+
+    .actu{
+        grid-template-columns: 1fr;
+    }
+
+    .actu-item .hr{
+        display: block;
+    }
+
+    .admission{
+        margin: 20px;
+        padding: 50px 20px;
+    }
+
+    .article-page{
+        grid-template-columns: 12fr;
+    }
+
+    .banner-page p{
+        margin: 20px;
+    }
+
+    .header-section h1::after{
+        width: 100px;
+    }
+
+    .header-section{
+        font-size: 1.2rem;
+    }
+
+}
+
+
+@media screen and (max-width: 576px ) {
+
+
+    .formation-item.entete, .formation-item, .footer-content-item{
+        width: 100%;
+    }
+
+    .partenaire-item{
+        width: 30%;
+        padding: 0;
+    }
+
+    .form-group{
+        flex-wrap: wrap;
+    }
+}
+
