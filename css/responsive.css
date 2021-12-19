@@ -10,6 +10,10 @@
         margin: 30px 20px;
     }
 
+    .actu-item hr.separator{
+        margin: 30px 0;
+    }
+
     .banner h1{
         font-size: 3rem;
     }
@@ -111,7 +115,13 @@
     }
 
     .header-section h1::after{
-        width: 100px;
+        width: 50px;
+    }
+
+    .header-section h1 i, .description h1 i{
+        display: block;
+        font-size: 4rem;
+        margin-bottom: 30px;
     }
 
     .header-section{
@@ -135,6 +145,11 @@
 
     .form-group{
         flex-wrap: wrap;
+    }
+
+    .admission{
+        margin: 10px;
+        padding: 50px 10px;
     }
 }
 
