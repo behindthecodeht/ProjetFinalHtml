@@ -68,7 +68,6 @@
     #menu_principal{
         position: absolute;
         width: 300px;
-        height: 80vh;
         top: 52px;
         left: -257px;
         transform: translateX(300px);
@@ -81,6 +80,21 @@
     #mobile:hover + #menu_principal{
         transform: translateX(0);
         transition: transform ease-in-out .3s;
+    }
+
+    .dropdown{
+        position: static;
+    }
+
+    .dropdown-content{
+        position: static;
+        display: block;
+        opacity: 1;
+        padding: 0;
+    }
+
+    .dropdown-item{
+        background-color: var(--gray2-color);
     }
 }
 
@@ -128,6 +142,22 @@
         font-size: 1.2rem;
     }
 
+    .team{
+        flex-wrap: wrap;
+    }
+
+    .team-item{
+        width: 70%;
+    }
+
+    .team-item:hover{
+        width: 90%;
+    }
+
+    .gallerie{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 
@@ -150,6 +180,10 @@
     .admission{
         margin: 10px;
         padding: 50px 10px;
+    }
+
+    .gallerie{
+        grid-template-columns: 1fr;
     }
 }
 
